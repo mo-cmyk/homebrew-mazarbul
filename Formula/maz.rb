@@ -1,28 +1,28 @@
 class Maz < Formula
   desc "Local-first system of records for the era of agents"
   homepage "https://github.com/mo-cmyk/mazarbul"
-  version "0.1.0"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/mo-cmyk/mazarbul/releases/download/v0.1.0/mazarbul_v0.1.0_darwin_arm64.tar.gz"
-      sha256 "7f3e20add2a779fdc3940b1033e9dde39c72a23b476c950af78da0f89b938d6a"
+      url "https://github.com/mo-cmyk/mazarbul/releases/download/v0.2.0/mazarbul_v0.2.0_darwin_arm64.tar.gz"
+      sha256 "a5e26dc7ab01c887a036a37f1cafa87f6ab37532668bdb57fa136e58b1dfcb1b"
     end
     on_intel do
-      url "https://github.com/mo-cmyk/mazarbul/releases/download/v0.1.0/mazarbul_v0.1.0_darwin_amd64.tar.gz"
-      sha256 "def6490c363a8a11fa9fb7d932cabda201644040747916cb049f02300a02df1a"
+      url "https://github.com/mo-cmyk/mazarbul/releases/download/v0.2.0/mazarbul_v0.2.0_darwin_amd64.tar.gz"
+      sha256 "9c1c82376a7cd1316378f3d79244d3e74bef36ef2ad08e00353c2eb4483a80cd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mo-cmyk/mazarbul/releases/download/v0.1.0/mazarbul_v0.1.0_linux_arm64.tar.gz"
-      sha256 "a1772a082b075010f2b28f1c0be1b56c7fdb1eaadb378f69ace7aaefbb7ee309"
+      url "https://github.com/mo-cmyk/mazarbul/releases/download/v0.2.0/mazarbul_v0.2.0_linux_arm64.tar.gz"
+      sha256 "14b94543c9890a5bcd0b7fa15efb941bde8e81e394a0851979504e37984675eb"
     end
     on_intel do
-      url "https://github.com/mo-cmyk/mazarbul/releases/download/v0.1.0/mazarbul_v0.1.0_linux_amd64.tar.gz"
-      sha256 "3bba48a60f64994f45df6f9cb799372faf0b3155139a239d58c49dc43de42195"
+      url "https://github.com/mo-cmyk/mazarbul/releases/download/v0.2.0/mazarbul_v0.2.0_linux_amd64.tar.gz"
+      sha256 "799e7939e04ddcffcf676c12bd96e667d6541d3d0887b3c5f50524da999d7279"
     end
   end
 
